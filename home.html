@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Group 8 - IFT 505 - Student List</title>
+  <link rel="stylesheet" href="mysyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="loader">
+    <h2>Loading...</h2>
+    <div id="progressBarContainer">
+      <div id="progressBar"></div>
+    </div>
+    <div id="progressText">0%</div>
+  </div>
+
+  <div id="hoverBox" class="hover-box">
+    <h2>Group 8 - IFT 505</h2>
+    <ul id="studentList" class="student-list"></ul>
+    <div id="buttons" class="button-group">
+      <button onclick="showFullList()">Full List</button>
+      <button onclick="hideList()">Hide List</button>
+    </div>
+  </div>
+
+  <div class="toggle-switch">
+    <label class="switch">
+      <input type="checkbox" id="themeToggle">
+      <span class="slider"></span>
+    </label>
+  </div>
+
+  <script type="text/javascript" src="work.js"></script>
+</body>
+</html>
