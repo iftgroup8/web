@@ -115,9 +115,7 @@ body.dark-mode .hover-box {
     display: none;
     margin-top: 20px;
     text-align: left;
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+    width: fit-content;
     opacity: 1;
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
